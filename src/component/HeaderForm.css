@@ -1,0 +1,45 @@
+.header-div {
+    background-color: #23202000;
+    width: 60vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-select{
+    /* text-decoration: wavy; */
+    font-size: large;
+    text-align: center;
+    background-color: black;
+    color: rgb(222, 212, 192);
+    height: 5vh;
+    width: 11vw;
+    border-radius: 4px;
+}
+
+.search-input{
+    font-size: large;
+    text-align :center;
+    background-color: black;
+    color: rgb(222, 212, 192);
+    height: 5vh;
+    width: 40vw;
+    border-radius: 4px;
+}
+.search-input::placeholder{
+    color: rgb(222, 212, 192);
+    font-size: large;
+}
+
+.create-paste{
+    border: 2px solid wheat;
+    font-size: large;
+    text-align: center;
+    background-color:rgb(222, 212, 192);
+    color: black;
+    height: 5vh;
+    width: 11vw;
+    border-radius: 4px;
+    
+}
