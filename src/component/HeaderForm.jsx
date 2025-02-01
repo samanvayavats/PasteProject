@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './HeaderForm.css'
-const HeaderForm = () => {
+const HeaderForm = (props) => {
+    const [tempTitle, settempTitle] = useState('')
+    function enterTilte(e){
+        settempTitle(e.target.value)
+        props.setTitle(tempTitle)
+        console.log(props.Title)
+    }
+
     return (
         <div>
-            <form >
+            <form className = 'form-div'>
                 <div className='header-div'>
                 <select  className="header-select">
                     <option value="">Code</option>
@@ -24,8 +31,7 @@ const HeaderForm = () => {
 
                 </div>
                 <div className='header-div'>
-                <input className='search-input' type="text" placeholder='Title' />
-                <button className='create-paste'>Create Paste</button>
+                <input className='search-input' type="text" placeholder='Title' onChange={enterTilte}/>
                 </div>
             </form>
         </div>

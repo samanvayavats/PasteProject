@@ -5,3 +5,20 @@
 body{
   background-color: rgb(30, 29, 29);
 }
+
+.app-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-btn{
+  background-color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(222, 212, 192);
+    color: rgb(222, 212, 192);
+  margin-top: 10px;
+  width: 10vw;
+  height: 6vh;
+}

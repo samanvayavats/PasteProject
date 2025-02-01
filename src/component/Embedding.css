@@ -1,0 +1,17 @@
+.main-embedded{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.text-embedded{
+    padding-left: 10px;
+    width: 80vw;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(222, 212, 192);
+    color: rgb(222, 212, 192);
+    height: auto;
+}
