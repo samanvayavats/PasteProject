@@ -9,12 +9,16 @@
 }
 .header-div {
     background-color: #23202000;
+    color: rgb(222, 212, 192);
     width: 60vw;
-    height: 8vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+/* .header-div-h1{
+    box-shadow: 5px 5px 5px  rgb(222, 212, 192);;
+} */
 
 .header-select{
     /* text-decoration: wavy; */

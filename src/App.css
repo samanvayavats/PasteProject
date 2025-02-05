@@ -1,6 +1,7 @@
 *{
  padding: 0PX;
  margin: 0px;
+ 
 }
 body{
   background-color: rgb(30, 29, 29);
@@ -21,4 +22,28 @@ body{
   margin-top: 10px;
   width: 10vw;
   height: 6vh;
+}
+
+
+
+.search-input-app{
+  background-color:  rgb(222, 212, 192);;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(20, 20, 20);
+margin-top: 10px;
+width: 40vw;
+height: 6vh;
+margin-right: 10px;
+padding-left: 4px;
+}
+
+.search-btn-app{
+  background-color: black;
+  border-radius: 10px;
+  border: 2px solid rgb(222, 212, 192);
+  color: rgb(222, 212, 192);
+margin-top: 10px;
+width: 10vw;
+height: 6vh;
 }

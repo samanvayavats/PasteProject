@@ -1,22 +1,19 @@
-import React from 'react'
-import { useState } from 'react'
-import './Content.css'
-const content = (props) => {
-  const [TempText, setTempText] = useState('')
-  function writngText(e){
-     setTempText(e.target.value);
-     props.setText(TempText)
-     console.log(props.Text)
-  }
+import React, { useState ,useRef} from 'react';
+import './Content.css';
 
+const Content = (props) => {
+
+  function writingText(e) {
+    const value = e.target.value;
+    props.setText(value);  // Use the latest value
+    
+  }
 
   return (
     <div className='main-content'>
-      <textarea className="input-content"
-      onChange={writngText}></textarea>
+      <textarea className="input-content" onChange={writingText} ></textarea>
     </div>
-  )
+  );
 }
 
-export default content
-
+export default Content;
